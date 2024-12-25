@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/program_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/tb/program_counter_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter_tb
