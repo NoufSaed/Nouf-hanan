@@ -38,7 +38,7 @@ module program_counter
         end 
         else if (pc_reg<n-1)
         begin
-        pc_reg<= pc_reg+1;
+        pc_reg<= pc_reg+4;
         end
         
         else begin

@@ -3,5 +3,13 @@
 May 24 2019
 14:51:52
 /home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/program_counter.sv,1735125263,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/tb/program_counter_tb.sv,,program_counter,,,,,,,,
-/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/tb/program_counter_tb.sv,1735056160,systemVerilog,,,,program_counter_tb,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/alu_control_tb.sv,1735427544,systemVerilog,,,,alu_control_tb,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/data_mem_tb.sv,1735560379,systemVerilog,,,,data_mem_tb,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/inst_mem_tb.sv,1735412430,systemVerilog,,,,inst_mem_tb,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/reg_file_tb.sv,1735413786,systemVerilog,,,,reg_file_tb,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/alu_control.sv,1735427124,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/alu_control_tb.sv,,alu_control,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/data_mem.sv,1735560398,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/data_mem_tb.sv,,data_mem,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/inst_mem.sv,1735412861,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/inst_mem_tb.sv,,inst_mem,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/program_counter.sv,1735545332,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/tb/program_counter_tb.sv,,program_counter,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/rtl/reg_file.sv,1735412443,systemVerilog,,/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/Nouf_Hanan.srcs/sim_1/new/reg_file_tb.sv,,reg_file,,,,,,,,
+/home/it/Desktop/Nouf-Hanan-ProjectLab-6/Nouf_Hanan/tb/program_counter_tb.sv,1735067033,systemVerilog,,,,program_counter_tb,,,,,,,,

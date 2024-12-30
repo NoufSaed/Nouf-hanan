@@ -13,17 +13,19 @@ module reg_file (
     logic [31:0] registers [31:0];
 
     // Initialize all registers to 0 on reset
-    always_ff @(negedge reset_n or posedge clk) begin
-        if (!reset_n) begin
-            for (int i = 0; i < 32; i++) begin
-                registers[i] <= 32'b0;
-            end
-        end else if (reg_write && waddr != 5'd0) begin
-            registers[waddr] <= wdata; // Write data to the specified register
-        end
+    always_ff @(posedge clk ,negedge reset_n) 
+        begin
+            if (!reset_n) begin
+                for (int i = 0; i < 32; i++) begin
+                    registers[i] <= 32'b0;
+           end
+        end 
+          else if (reg_write && waddr != 5'd0)
+             begin
+                registers[waddr] <= wdata; // Write data to the specified register
+               end
     end
 
-    // Read logic (combinational)
     always_comb begin
         rdata1 = (raddr1 == 5'd0) ? 32'b0 : registers[raddr1]; // x0 is always 0
         rdata2 = (raddr2 == 5'd0) ? 32'b0 : registers[raddr2]; // x0 is always 0
